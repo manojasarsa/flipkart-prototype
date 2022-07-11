@@ -1,15 +1,35 @@
+.header-container {
+    grid-area: header;
+    height: fit-content;
+    height: 4rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 0;
+    z-index: 5;
+    color: #fff;
+    background-color: #2874f0;
+    font-family: Roboto,Arial,sans-serif;
+}
+
 .header-wrapper {
     display: flex;
     width: 100%;
 }
 
 .header-content {
-    margin: 1rem auto;
     display: flex;
+    margin: 1rem auto;
     gap: 2rem;
 }
 
 .search-bar {
     width: 25rem;
     padding: 0.2rem 1rem;
+}
+
+.logo-img {
+    width: 4.2rem;
+    height: 1.5rem;
+    margin-right: 0.2rem;
 }

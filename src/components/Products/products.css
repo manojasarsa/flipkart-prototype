@@ -1,6 +1,7 @@
 .product-container {
+    background-color: #fff;
+    grid-area: main;
     padding-left: 1rem;
-    margin-top: 4rem;
 }
 
 .products {
