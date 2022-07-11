@@ -1,17 +1,18 @@
 import './App.css';
-import { Filters, Header } from './components';
+import { Filters, Header, Products } from './components';
 
 function App() {
-    return (
-        <div className="App">
-            <div className="main-container">
+  return (
+    <div className="App">
+        <div className="main-container">
 
-                <Header />
-                <Filters />
+            <Header />
+            <Filters />
+            <Products />
 
-            </div>
         </div>
-    );
+    </div>
+  );
 }
 
 export default App;
