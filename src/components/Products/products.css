@@ -5,7 +5,8 @@
 }
 
 .products {
-    display: flex;
-    padding: 0.5rem;
-    flex-wrap: wrap;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    margin-top: 0.3rem;
 }
