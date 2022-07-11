@@ -1,0 +1,15 @@
+.header-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.header-content {
+    margin: 1rem auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.search-bar {
+    width: 25rem;
+    padding: 0.2rem 1rem;
+}

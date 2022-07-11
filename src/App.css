@@ -1,0 +1,47 @@
+.App {
+    color: #212121;
+    background-color: #f1f3f6;
+}
+
+.main-container {
+    display: grid;
+    height: 100vh;
+    grid-gap: 1rem;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr 8fr;
+    padding-bottom: 0.5rem;
+    grid-template-areas:
+        "header header"
+        "aside main";
+}
+
+.header-container {
+    grid-area: header;
+    position: fixed;
+    height: fit-content;
+    height: 4rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 0;
+    z-index: 5;
+    color: #fff;
+    background-color: #2874f0;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.product-container {
+    background-color: #fff;
+    grid-area: main;
+}
+
+.logo-img {
+    width: 4.2rem;
+    height: 1.5rem;
+    margin-right: 0.2rem;
+}
+
+.header-content {
+    display: flex;
+    margin: 0 2rem;
+}
