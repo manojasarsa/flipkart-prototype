@@ -1,5 +1,5 @@
 import './App.css';
-import { Header } from './components';
+import { Filters, Header } from './components';
 
 function App() {
     return (
@@ -7,6 +7,7 @@ function App() {
             <div className="main-container">
 
                 <Header />
+                <Filters />
 
             </div>
         </div>
